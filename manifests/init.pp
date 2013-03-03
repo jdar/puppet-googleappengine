@@ -1,10 +1,10 @@
-# Public: Install fortune via homebrew
+# Public: Install google-app-engine via homebrew
 #
 # Examples
 #
-#   include fortune
-class fortune {
+#   include google-app-engine
+class google-app-engine {
   include homebrew
 
-  package { 'fortune': }
+  package { 'google-app-engine': }
 }
