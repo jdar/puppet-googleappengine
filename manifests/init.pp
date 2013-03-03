@@ -1,10 +1,10 @@
-# Public: Install wget via homebrew
+# Public: Install fortune via homebrew
 #
 # Examples
 #
-#   include wget
-class wget {
+#   include fortune
+class fortune {
   include homebrew
 
-  package { 'wget': }
+  package { 'fortune': }
 }
